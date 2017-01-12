@@ -9,7 +9,8 @@ ios_dir=`pwd`/ios
 if [ -d ios_dir ]; then
   exit 0
 fi
-
+  exit 0
+  #disable everything
 podfile="$ios_dir/Podfile"
 pod_dep="pod 'Stripe', '~> 9.2.0'"
 
